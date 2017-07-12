@@ -20,7 +20,7 @@ blogPosts.push({
 
 // //for each object in here...I want to list each item of each line/array
 blogPosts.forEach(function(item){
-	document.getElementById("blog").innerHTML += `<h3>${item.title}</h3><p>${item.copy}</p><h4>${item.date}</h4><hr>`;
+	document.getElementById("blog").innerHTML += `<article><h3>${item.title}</h3><p>${item.copy}</p><h4>${item.date}</h4><hr></article>`;
 	
 });
 
