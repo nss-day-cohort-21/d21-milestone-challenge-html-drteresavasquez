@@ -17,8 +17,12 @@ h2{
 }
 
 h3{
-	color: #0A1C20;
-	font-size: 1em;
+	color: #D01E00;
+	font-size: 1.15em;
+}
+
+h4{
+	font-size: .75em;
 }
 
 main {
@@ -68,7 +72,7 @@ ul.main-nav {
 	text-align: center;
 }
 
-/*Document Main Text Classes*/
+/*-- Document Main Text Classes --*/
 
 .heroImage{
 	width: 101.8%;
